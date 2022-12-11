@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06BD3DB0FD69B69E4C80D050 /* libPods-DDMathParserDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB988BA5BC732FF149CE91EB /* libPods-DDMathParserDemoTests.a */; };
+		5FF5990543B8C0DD1CB30803 /* libPods-DDMathParserDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11CAB45FFDDB79F81A73418C /* libPods-DDMathParserDemo.a */; };
+		CAF79BD72944C65E00CEEC4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79BD62944C65E00CEEC4D /* AppDelegate.swift */; };
+		CAF79BD92944C65E00CEEC4D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79BD82944C65E00CEEC4D /* SceneDelegate.swift */; };
+		CAF79BDB2944C65E00CEEC4D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79BDA2944C65E00CEEC4D /* ViewController.swift */; };
+		CAF79BDE2944C65E00CEEC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF79BDC2944C65E00CEEC4D /* Main.storyboard */; };
+		CAF79BE02944C66000CEEC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF79BDF2944C66000CEEC4D /* Assets.xcassets */; };
+		CAF79BE32944C66000CEEC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAF79BE12944C66000CEEC4D /* LaunchScreen.storyboard */; };
+		CAF79BEE2944C66000CEEC4D /* DDMathParserDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79BED2944C66000CEEC4D /* DDMathParserDemoTests.swift */; };
+		CAF79BF82944C66000CEEC4D /* DDMathParserDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79BF72944C66000CEEC4D /* DDMathParserDemoUITests.swift */; };
+		CAF79BFA2944C66000CEEC4D /* DDMathParserDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79BF92944C66000CEEC4D /* DDMathParserDemoUITestsLaunchTests.swift */; };
+		CAF79C2329456ABA00CEEC4D /* GithubIssues.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C1A29456ABA00CEEC4D /* GithubIssues.swift */; };
+		CAF79C2429456ABA00CEEC4D /* GroupingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C1B29456ABA00CEEC4D /* GroupingTests.swift */; };
+		CAF79C2529456ABA00CEEC4D /* TokenizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C1C29456ABA00CEEC4D /* TokenizerTests.swift */; };
+		CAF79C2629456ABA00CEEC4D /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C1D29456ABA00CEEC4D /* XCTestManifests.swift */; };
+		CAF79C2729456ABA00CEEC4D /* RewriterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C1E29456ABA00CEEC4D /* RewriterTests.swift */; };
+		CAF79C2829456ABA00CEEC4D /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C1F29456ABA00CEEC4D /* TestHelpers.swift */; };
+		CAF79C2929456ABA00CEEC4D /* EvaluatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C2029456ABA00CEEC4D /* EvaluatorTests.swift */; };
+		CAF79C2A29456ABA00CEEC4D /* ResolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C2129456ABA00CEEC4D /* ResolverTests.swift */; };
+		CAF79C2B29456ABA00CEEC4D /* ExpressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C2229456ABA00CEEC4D /* ExpressionTests.swift */; };
+		CAF79C2D29456BCB00CEEC4D /* MGTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF79C2C29456BCB00CEEC4D /* MGTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CAF79BEA2944C66000CEEC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF79BCB2944C65E00CEEC4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF79BD22944C65E00CEEC4D;
+			remoteInfo = DDMathParserDemo;
+		};
+		CAF79BF42944C66000CEEC4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CAF79BCB2944C65E00CEEC4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CAF79BD22944C65E00CEEC4D;
+			remoteInfo = DDMathParserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C6CF058EDE9787C0569B05 /* Pods-DDMathParserDemo-DDMathParserDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMathParserDemo-DDMathParserDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DDMathParserDemo-DDMathParserDemoTests/Pods-DDMathParserDemo-DDMathParserDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		11CAB45FFDDB79F81A73418C /* libPods-DDMathParserDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMathParserDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14AED1CB7CE8CE82C868A9D9 /* Pods-DDMathParserDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMathParserDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DDMathParserDemoTests/Pods-DDMathParserDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3918908B09579859B1C61BCB /* Pods-DDMathParserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMathParserDemo.debug.xcconfig"; path = "Target Support Files/Pods-DDMathParserDemo/Pods-DDMathParserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7E9EA2F936D1D36027829103 /* Pods-DDMathParserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMathParserDemo.release.xcconfig"; path = "Target Support Files/Pods-DDMathParserDemo/Pods-DDMathParserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BEB1BC275A3107306CA93545 /* Pods-DDMathParserDemo-DDMathParserDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMathParserDemo-DDMathParserDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-DDMathParserDemo-DDMathParserDemoTests/Pods-DDMathParserDemo-DDMathParserDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA109F527296BC58697CFE4B /* Pods-DDMathParserDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DDMathParserDemoTests.release.xcconfig"; path = "Target Support Files/Pods-DDMathParserDemoTests/Pods-DDMathParserDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		CAF79BD32944C65E00CEEC4D /* DDMathParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDMathParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF79BD62944C65E00CEEC4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAF79BD82944C65E00CEEC4D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAF79BDA2944C65E00CEEC4D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAF79BDD2944C65E00CEEC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAF79BDF2944C66000CEEC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAF79BE22944C66000CEEC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAF79BE42944C66000CEEC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAF79BE92944C66000CEEC4D /* DDMathParserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMathParserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF79BED2944C66000CEEC4D /* DDMathParserDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMathParserDemoTests.swift; sourceTree = "<group>"; };
+		CAF79BF32944C66000CEEC4D /* DDMathParserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDMathParserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAF79BF72944C66000CEEC4D /* DDMathParserDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMathParserDemoUITests.swift; sourceTree = "<group>"; };
+		CAF79BF92944C66000CEEC4D /* DDMathParserDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDMathParserDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAF79C1A29456ABA00CEEC4D /* GithubIssues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubIssues.swift; sourceTree = "<group>"; };
+		CAF79C1B29456ABA00CEEC4D /* GroupingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupingTests.swift; sourceTree = "<group>"; };
+		CAF79C1C29456ABA00CEEC4D /* TokenizerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenizerTests.swift; sourceTree = "<group>"; };
+		CAF79C1D29456ABA00CEEC4D /* XCTestManifests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		CAF79C1E29456ABA00CEEC4D /* RewriterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewriterTests.swift; sourceTree = "<group>"; };
+		CAF79C1F29456ABA00CEEC4D /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
+		CAF79C2029456ABA00CEEC4D /* EvaluatorTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvaluatorTests.swift; sourceTree = "<group>"; };
+		CAF79C2129456ABA00CEEC4D /* ResolverTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResolverTests.swift; sourceTree = "<group>"; };
+		CAF79C2229456ABA00CEEC4D /* ExpressionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpressionTests.swift; sourceTree = "<group>"; };
+		CAF79C2C29456BCB00CEEC4D /* MGTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGTests.swift; sourceTree = "<group>"; };
+		DB988BA5BC732FF149CE91EB /* libPods-DDMathParserDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DDMathParserDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF79BD02944C65E00CEEC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF5990543B8C0DD1CB30803 /* libPods-DDMathParserDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF79BE62944C66000CEEC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BD3DB0FD69B69E4C80D050 /* libPods-DDMathParserDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF79BF02944C66000CEEC4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FD1C867BA63DA60F1D0A04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11CAB45FFDDB79F81A73418C /* libPods-DDMathParserDemo.a */,
+				DB988BA5BC732FF149CE91EB /* libPods-DDMathParserDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAF79BCA2944C65E00CEEC4D = {
+			isa = PBXGroup;
+			children = (
+				CAF79BD52944C65E00CEEC4D /* DDMathParserDemo */,
+				CAF79BEC2944C66000CEEC4D /* DDMathParserDemoTests */,
+				CAF79BF62944C66000CEEC4D /* DDMathParserDemoUITests */,
+				CAF79BD42944C65E00CEEC4D /* Products */,
+				F237F76D38D72CF1489CF6CA /* Pods */,
+				57FD1C867BA63DA60F1D0A04 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CAF79BD42944C65E00CEEC4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAF79BD32944C65E00CEEC4D /* DDMathParserDemo.app */,
+				CAF79BE92944C66000CEEC4D /* DDMathParserDemoTests.xctest */,
+				CAF79BF32944C66000CEEC4D /* DDMathParserDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAF79BD52944C65E00CEEC4D /* DDMathParserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CAF79BD62944C65E00CEEC4D /* AppDelegate.swift */,
+				CAF79BD82944C65E00CEEC4D /* SceneDelegate.swift */,
+				CAF79BDA2944C65E00CEEC4D /* ViewController.swift */,
+				CAF79BDC2944C65E00CEEC4D /* Main.storyboard */,
+				CAF79BDF2944C66000CEEC4D /* Assets.xcassets */,
+				CAF79BE12944C66000CEEC4D /* LaunchScreen.storyboard */,
+				CAF79BE42944C66000CEEC4D /* Info.plist */,
+			);
+			path = DDMathParserDemo;
+			sourceTree = "<group>";
+		};
+		CAF79BEC2944C66000CEEC4D /* DDMathParserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF79C1929456ABA00CEEC4D /* MathParserTests */,
+				CAF79BED2944C66000CEEC4D /* DDMathParserDemoTests.swift */,
+			);
+			path = DDMathParserDemoTests;
+			sourceTree = "<group>";
+		};
+		CAF79BF62944C66000CEEC4D /* DDMathParserDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF79BF72944C66000CEEC4D /* DDMathParserDemoUITests.swift */,
+				CAF79BF92944C66000CEEC4D /* DDMathParserDemoUITestsLaunchTests.swift */,
+			);
+			path = DDMathParserDemoUITests;
+			sourceTree = "<group>";
+		};
+		CAF79C1929456ABA00CEEC4D /* MathParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				CAF79C2C29456BCB00CEEC4D /* MGTests.swift */,
+				CAF79C1A29456ABA00CEEC4D /* GithubIssues.swift */,
+				CAF79C1B29456ABA00CEEC4D /* GroupingTests.swift */,
+				CAF79C1C29456ABA00CEEC4D /* TokenizerTests.swift */,
+				CAF79C1D29456ABA00CEEC4D /* XCTestManifests.swift */,
+				CAF79C1E29456ABA00CEEC4D /* RewriterTests.swift */,
+				CAF79C1F29456ABA00CEEC4D /* TestHelpers.swift */,
+				CAF79C2029456ABA00CEEC4D /* EvaluatorTests.swift */,
+				CAF79C2129456ABA00CEEC4D /* ResolverTests.swift */,
+				CAF79C2229456ABA00CEEC4D /* ExpressionTests.swift */,
+			);
+			name = MathParserTests;
+			path = ../../Sources/Tests/MathParserTests;
+			sourceTree = "<group>";
+		};
+		F237F76D38D72CF1489CF6CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3918908B09579859B1C61BCB /* Pods-DDMathParserDemo.debug.xcconfig */,
+				7E9EA2F936D1D36027829103 /* Pods-DDMathParserDemo.release.xcconfig */,
+				14AED1CB7CE8CE82C868A9D9 /* Pods-DDMathParserDemoTests.debug.xcconfig */,
+				CA109F527296BC58697CFE4B /* Pods-DDMathParserDemoTests.release.xcconfig */,
+				BEB1BC275A3107306CA93545 /* Pods-DDMathParserDemo-DDMathParserDemoTests.debug.xcconfig */,
+				06C6CF058EDE9787C0569B05 /* Pods-DDMathParserDemo-DDMathParserDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAF79BD22944C65E00CEEC4D /* DDMathParserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF79BFD2944C66000CEEC4D /* Build configuration list for PBXNativeTarget "DDMathParserDemo" */;
+			buildPhases = (
+				4F824E3998922AFB38CF2759 /* [CP] Check Pods Manifest.lock */,
+				CAF79BCF2944C65E00CEEC4D /* Sources */,
+				CAF79BD02944C65E00CEEC4D /* Frameworks */,
+				CAF79BD12944C65E00CEEC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDMathParserDemo;
+			productName = DDMathParserDemo;
+			productReference = CAF79BD32944C65E00CEEC4D /* DDMathParserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CAF79BE82944C66000CEEC4D /* DDMathParserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF79C002944C66000CEEC4D /* Build configuration list for PBXNativeTarget "DDMathParserDemoTests" */;
+			buildPhases = (
+				31A4D32EB98578F2F89CAB34 /* [CP] Check Pods Manifest.lock */,
+				CAF79BE52944C66000CEEC4D /* Sources */,
+				CAF79BE62944C66000CEEC4D /* Frameworks */,
+				CAF79BE72944C66000CEEC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF79BEB2944C66000CEEC4D /* PBXTargetDependency */,
+			);
+			name = DDMathParserDemoTests;
+			productName = DDMathParserDemoTests;
+			productReference = CAF79BE92944C66000CEEC4D /* DDMathParserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CAF79BF22944C66000CEEC4D /* DDMathParserDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAF79C032944C66000CEEC4D /* Build configuration list for PBXNativeTarget "DDMathParserDemoUITests" */;
+			buildPhases = (
+				CAF79BEF2944C66000CEEC4D /* Sources */,
+				CAF79BF02944C66000CEEC4D /* Frameworks */,
+				CAF79BF12944C66000CEEC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF79BF52944C66000CEEC4D /* PBXTargetDependency */,
+			);
+			name = DDMathParserDemoUITests;
+			productName = DDMathParserDemoUITests;
+			productReference = CAF79BF32944C66000CEEC4D /* DDMathParserDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAF79BCB2944C65E00CEEC4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					CAF79BD22944C65E00CEEC4D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					CAF79BE82944C66000CEEC4D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CAF79BD22944C65E00CEEC4D;
+					};
+					CAF79BF22944C66000CEEC4D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = CAF79BD22944C65E00CEEC4D;
+					};
+				};
+			};
+			buildConfigurationList = CAF79BCE2944C65E00CEEC4D /* Build configuration list for PBXProject "DDMathParserDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAF79BCA2944C65E00CEEC4D;
+			productRefGroup = CAF79BD42944C65E00CEEC4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAF79BD22944C65E00CEEC4D /* DDMathParserDemo */,
+				CAF79BE82944C66000CEEC4D /* DDMathParserDemoTests */,
+				CAF79BF22944C66000CEEC4D /* DDMathParserDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAF79BD12944C65E00CEEC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF79BE32944C66000CEEC4D /* LaunchScreen.storyboard in Resources */,
+				CAF79BE02944C66000CEEC4D /* Assets.xcassets in Resources */,
+				CAF79BDE2944C65E00CEEC4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF79BE72944C66000CEEC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF79BF12944C66000CEEC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A4D32EB98578F2F89CAB34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDMathParserDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F824E3998922AFB38CF2759 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DDMathParserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAF79BCF2944C65E00CEEC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF79BDB2944C65E00CEEC4D /* ViewController.swift in Sources */,
+				CAF79BD72944C65E00CEEC4D /* AppDelegate.swift in Sources */,
+				CAF79BD92944C65E00CEEC4D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF79BE52944C66000CEEC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF79C2629456ABA00CEEC4D /* XCTestManifests.swift in Sources */,
+				CAF79C2A29456ABA00CEEC4D /* ResolverTests.swift in Sources */,
+				CAF79C2329456ABA00CEEC4D /* GithubIssues.swift in Sources */,
+				CAF79C2829456ABA00CEEC4D /* TestHelpers.swift in Sources */,
+				CAF79C2529456ABA00CEEC4D /* TokenizerTests.swift in Sources */,
+				CAF79C2B29456ABA00CEEC4D /* ExpressionTests.swift in Sources */,
+				CAF79C2429456ABA00CEEC4D /* GroupingTests.swift in Sources */,
+				CAF79C2D29456BCB00CEEC4D /* MGTests.swift in Sources */,
+				CAF79C2929456ABA00CEEC4D /* EvaluatorTests.swift in Sources */,
+				CAF79BEE2944C66000CEEC4D /* DDMathParserDemoTests.swift in Sources */,
+				CAF79C2729456ABA00CEEC4D /* RewriterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAF79BEF2944C66000CEEC4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAF79BFA2944C66000CEEC4D /* DDMathParserDemoUITestsLaunchTests.swift in Sources */,
+				CAF79BF82944C66000CEEC4D /* DDMathParserDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CAF79BEB2944C66000CEEC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF79BD22944C65E00CEEC4D /* DDMathParserDemo */;
+			targetProxy = CAF79BEA2944C66000CEEC4D /* PBXContainerItemProxy */;
+		};
+		CAF79BF52944C66000CEEC4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CAF79BD22944C65E00CEEC4D /* DDMathParserDemo */;
+			targetProxy = CAF79BF42944C66000CEEC4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CAF79BDC2944C65E00CEEC4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF79BDD2944C65E00CEEC4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAF79BE12944C66000CEEC4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAF79BE22944C66000CEEC4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAF79BFB2944C66000CEEC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAF79BFC2944C66000CEEC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF79BFE2944C66000CEEC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3918908B09579859B1C61BCB /* Pods-DDMathParserDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR3NGTDXRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DDMathParserDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testfun.005.DDMathParserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAF79BFF2944C66000CEEC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9EA2F936D1D36027829103 /* Pods-DDMathParserDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR3NGTDXRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DDMathParserDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testfun.005.DDMathParserDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CAF79C012944C66000CEEC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14AED1CB7CE8CE82C868A9D9 /* Pods-DDMathParserDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR3NGTDXRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testfun.005.DDMathParserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDMathParserDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DDMathParserDemo";
+			};
+			name = Debug;
+		};
+		CAF79C022944C66000CEEC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA109F527296BC58697CFE4B /* Pods-DDMathParserDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR3NGTDXRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testfun.005.DDMathParserDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDMathParserDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DDMathParserDemo";
+			};
+			name = Release;
+		};
+		CAF79C042944C66000CEEC4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR3NGTDXRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testfun.005.DDMathParserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDMathParserDemo;
+			};
+			name = Debug;
+		};
+		CAF79C052944C66000CEEC4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DR3NGTDXRG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.testfun.005.DDMathParserDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DDMathParserDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAF79BCE2944C65E00CEEC4D /* Build configuration list for PBXProject "DDMathParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF79BFB2944C66000CEEC4D /* Debug */,
+				CAF79BFC2944C66000CEEC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF79BFD2944C66000CEEC4D /* Build configuration list for PBXNativeTarget "DDMathParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF79BFE2944C66000CEEC4D /* Debug */,
+				CAF79BFF2944C66000CEEC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF79C002944C66000CEEC4D /* Build configuration list for PBXNativeTarget "DDMathParserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF79C012944C66000CEEC4D /* Debug */,
+				CAF79C022944C66000CEEC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAF79C032944C66000CEEC4D /* Build configuration list for PBXNativeTarget "DDMathParserDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF79C042944C66000CEEC4D /* Debug */,
+				CAF79C052944C66000CEEC4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAF79BCB2944C65E00CEEC4D /* Project object */;
+}
