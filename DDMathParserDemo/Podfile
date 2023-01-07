@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'DDMathParserDemo' do
+  pod 'DDMathParser', :path => '../'
+end
+
+
+target 'DDMathParserDemoTests' do
+  pod 'DDMathParser', :path => '../'
+end

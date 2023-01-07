@@ -1,0 +1,16 @@
+PODS:
+  - DDMathParser (2.0.0)
+
+DEPENDENCIES:
+  - DDMathParser (from `../`)
+
+EXTERNAL SOURCES:
+  DDMathParser:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DDMathParser: 07c3b8feadbb2c5dcfe09c5ca0b394bc42b3277f
+
+PODFILE CHECKSUM: b71280b2a1ecbe845f0d2c13e80553bc00cbd31a
+
+COCOAPODS: 1.11.2

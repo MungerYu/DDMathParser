@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import MathParser
+import DDMathParser
 
 class EvaluatorTests: XCTestCase {
 

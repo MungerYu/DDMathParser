@@ -8,7 +8,7 @@
 
 import Foundation
 import XCTest
-import MathParser
+import DDMathParser
 
 func XCTAssertNoThrows(_ expression: @autoclosure () throws -> Void, _ message: String = "", file: StaticString = #file, line: UInt = #line) -> Bool {
     var ok = false
@@ -53,7 +53,7 @@ func TestString(_ string: String, value: Double, evaluator: Evaluator = Evaluato
     XCTAssertEqual(d, value, accuracy: .ulpOfOne, file: file, line: line)
 }
 
-extension MathParser.Configuration {
+extension DDMathParser.Configuration {
     static let defaultWithEmptyOptions: Configuration = {
         var c = Configuration.default
         c.useHighPrecedenceImplicitMultiplication = false

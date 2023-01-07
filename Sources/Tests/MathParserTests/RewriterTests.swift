@@ -7,7 +7,7 @@
 //
 
 import XCTest
-import MathParser
+import DDMathParser
 
 func TestRewrite(_ original: String, expected: String, substitutions: Substitutions = [:], evaluator: Evaluator = Evaluator.default, rewriter: ExpressionRewriter = ExpressionRewriter.default, file: StaticString = #file, line: UInt = #line) {
     
